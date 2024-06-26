@@ -1,0 +1,74 @@
+/* src/styles/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2em;
+  color: #4a90e2;
+}
+
+.nav-button {
+  margin: 0 5px;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.input-city {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #357ab7;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+  margin-top: 0;
+  color: #4a90e2;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
+
+.forecast-day {
+  margin-top: 20px;
+}
